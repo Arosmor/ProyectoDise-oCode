@@ -1,0 +1,255 @@
+/* pagina */
+
+body {
+    height: 1050px;
+}
+
+/* ENCABEZADO */
+
+.cabezera{
+    border: 2px solid yellow;
+    height: 75px;
+    background-color: #FFFDD1;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.div{
+    height: 73px;
+    background-color: #FFFDD1;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.inputEncabezado{
+    margin-left: 50px;
+    width: 350px;
+    height: 28px;
+}
+
+.input1{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 28px;
+}
+
+.aEncabezado{
+    font-size:25px;
+    margin-left: 50px;
+}
+
+.botonEncabezado{
+    width: 100px;
+    height: 50px;
+    margin-left: 75px;
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+}
+
+.c{
+    width: 50px;
+    height: 50px;
+}
+
+.lupa{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 50px;
+}
+/* FIN DE ENCABEZADO */
+
+/* MENU */
+.menu{
+    border: 2px solid black;
+    background-color: rgb(201, 191, 191);
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIN DEL MENU */
+
+/* BUSQUEDA */
+
+.busqueda{
+    border: 2px solid black;
+    height: 35px;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+.inputEncabezado{
+    margin-left: 10px;
+    width: 150px;
+    height: 20px;
+}
+
+.busqueda {
+    width: 300px;           /* Ancho de 150 píxeles */
+    height: 500px;          /* Alto de 150 píxeles */
+    background:rgb(201, 191, 191);        /* Fondo de color gris */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+  }
+
+.row{
+    text-align: left;
+}
+/* FIN BUSQUEDA */
+
+
+/* FINAL */
+
+.h2{
+    text-align: left;
+}
+
+.divFinal1{
+    position: absolute;
+    text-align: right;
+    border: 2px solid black;
+    width: 150px;
+    height: 250px;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+
+.divFinal1:hover {
+    background-color: #F89B4D;
+}
+
+
+.divFinal2{
+    position: absolute;
+    text-align: right;
+    border: 2px solid black;
+    width: 150px;
+    height: 250px;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.divFinal2:hover {
+    background-color: #F89B4D;
+}
+
+.divFinal3{
+    position: absolute;
+
+    text-align: right;
+    border: 2px solid black;
+    width: 150px;
+    height: 250px;
+    font-size: 20px;
+    margin-left: 700px;
+}
+
+.divFinal3:hover {
+    background-color: #F89B4D;
+}
+
+.divFinal4{
+    position: absolute;
+    text-align: right;
+    border: 2px solid black;
+    width: 150px;
+    height: 250px;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.divFinal4:hover {
+    background-color: #F89B4D;
+}
+
+.divFinal5{
+    /* position: absolute; */
+    margin-right: 50px;
+
+    /* font-size: 20px; */
+}
+
+.divFinal6{
+    position: absolute;
+    text-align: right;
+    border: 2px solid black;
+    width: 150px;
+    height: 250px;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 700px;
+
+}
+
+.divFinal6:hover {
+    background-color: #F89B4D;
+}
+
+.doom{
+    position: absolute;
+    bottom: 400px;
+    width: 800px;
+    height: 400px;
+    left: 300px;
+    bottom: 10px;
+}
+
+.doom-E{
+    position: absolute;
+    bottom: 400px;
+    width: 800px;
+    height: 400px;
+    left: 470px;
+    top: 750px;
+}
+
+
+.hol{
+    position: absolute;
+    border: 4px solid black;
+    left: 1300px;
+    bottom: 300px;
+    padding: 20px 40px 20px 40px;
+}
+
+.texto{
+    position: absolute;
+    bottom: 400px;
+    width: 800px;
+    left: 300px;
+    bottom: 400px;
+}
+
+.busqueda {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    margin-top:10px;
+    background-color:rgb(201, 191, 191);
+    margin-left:50px;
+    margin-top:200px;
+    }
+    .row {
+    margin-left:320px;
+    margin-right:20px;
+    margin-top:10px;
+    }
+
+    .float{
+        position: absolute;
+        text-align: center;
+        width: 135px;
+        font-size: 20px;
+        margin-left: 1150px;
+        top: 900px;
+    }
